@@ -9,6 +9,7 @@ import OtherControlsSection from "./component/OtherControlsSection";
 import UnauthorizedToolCalls from "./component/UnauthorizedToolCalls";
 import ObserveEnforceAudit from "./component/ObserveEnforceAudit";
 import PolicySection from "./component/PolicySection";
+import PositionSection from "./component/PositionSection";
 
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
         <ObserveEnforceAudit />
          {/* Previous sections */}
       <PolicySection />
+      <PositionSection />
 
     </main>
   );
