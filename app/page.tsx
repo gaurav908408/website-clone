@@ -4,6 +4,9 @@ import Hero from "./component/Hero";
 import SDKSection from "./component/SDKSection";
 import CustomerSection from "./component/CustomerSection";
 import ProblemSection from "./component/ProblemSection";
+import RiskBanner from "./component/RiskBanner";
+import OtherControlsSection from "./component/OtherControlsSection";
+import UnauthorizedToolCalls from "./component/UnauthorizedToolCalls";
 
 export default function Home() {
   return (
@@ -23,6 +26,10 @@ export default function Home() {
 
       {/* Problem Section */}
       <ProblemSection />
+ {/* Risk Banner */}
+        <RiskBanner />
+        <OtherControlsSection />
+        <UnauthorizedToolCalls />
 
     </main>
   );
