@@ -1,29 +1,10 @@
+import NavbarLinks from "./NavbarLinks";
 import {
   Sparkle,
-  ChevronDown,
   BookOpen,
   Rss,
   CircleUserRound,
 } from "lucide-react";
-
-const navLinks = [
-  {
-    title: "Product",
-    dropdown: true,
-  },
-  {
-    title: "Integrations",
-    dropdown: true,
-  },
-  {
-    title: "Resources",
-    dropdown: true,
-  },
-  {
-    title: "Pricing",
-    dropdown: false,
-  },
-];
 
 const rightLinks = [
   {
@@ -82,28 +63,8 @@ export default function Navbar() {
             <div className="absolute -right-7 top-1/2 h-[68px] w-8 -translate-y-1/2 rounded-r-full border-r border-white/80" />
           </a>
 
-          {/* NAVIGATION LINKS */}
-          <nav className="flex items-center gap-9">
-
-            {navLinks.map((link) => (
-              <a
-                key={link.title}
-                href="#"
-                className="group flex items-center gap-2 text-[17px] font-semibold text-white transition-colors duration-200 hover:text-white/70"
-              >
-                {link.title}
-
-                {link.dropdown && (
-                  <ChevronDown
-                    size={17}
-                    strokeWidth={1.8}
-                    className="transition-transform duration-200 group-hover:rotate-180"
-                  />
-                )}
-              </a>
-            ))}
-
-          </nav>
+          {/* NAVIGATION LINKS WITH DROPDOWNS */}
+          <NavbarLinks />
         </div>
 
         {/* RIGHT SECTION */}
