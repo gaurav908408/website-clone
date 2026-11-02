@@ -4,6 +4,8 @@ import {
   BookOpen,
   Rss,
   CircleUserRound,
+  Plus,
+  ArrowRight,
 } from "lucide-react";
 
 const rightLinks = [
@@ -102,6 +104,37 @@ export default function Navbar() {
 
         </div>
       </div>
+
+      {/* ✅ GREEN ANNOUNCEMENT BANNER — navbar ke neeche, right side pe */}
+      <div className="relative mx-auto flex max-w-[1620px] justify-end px-8 py-2">
+        <a
+          href="#announcement"
+          className="group flex items-center gap-2 rounded-full border border-white/10 bg-black/60 px-4 py-1.5 text-[13px] text-white/90 backdrop-blur-sm transition-all duration-200 hover:border-green-500/40 hover:bg-black/80"
+          style={{ boxShadow: "0 0 14px rgba(34,197,94,0.15)" }}
+        >
+          {/* Green dot pulse */}
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
+          </span>
+
+          {/* Plus icon */}
+          <Plus size={12} strokeWidth={2.5} className="text-green-400" />
+
+          {/* Text */}
+          <span className="font-medium">
+            Introducing Arcjet for Coding Agents
+          </span>
+
+          {/* Arrow */}
+          <ArrowRight
+            size={13}
+            strokeWidth={2}
+            className="text-white/50 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:text-white/80"
+          />
+        </a>
+      </div>
+
     </header>
   );
 }
