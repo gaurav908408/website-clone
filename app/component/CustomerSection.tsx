@@ -3,7 +3,7 @@ export default function CustomerSection() {
     <section className="relative flex min-h-[310px] w-full flex-col items-center justify-center overflow-hidden bg-[#101014] px-6 py-14">
       <div className="pointer-events-none absolute inset-0 bg-[repeating-linear-gradient(0deg,rgba(255,255,255,0.018)_0px,rgba(255,255,255,0.018)_1px,transparent_1px,transparent_4px)]" />
 
-      <p className="mb-7 text-center font-mono text-[13px] tracking-[0.12em] text-[#aaa4ff] sm:text-[15px]">
+      <p className="mb-7 text-center font-mono text-[13px] tracking-[0.12em] text-white sm:text-[15px]">
         SECURING PRODUCTION WORKFLOWS AT
       </p>
 
@@ -27,7 +27,7 @@ export default function CustomerSection() {
         </div>
       </div>
 
-      <p className="mt-10 text-center font-mono text-[13px] tracking-[0.12em] text-[#aaa4ff] sm:text-[16px]">
+      <p className="mt-10 text-center font-mono text-[13px] tracking-[0.12em] text-white sm:text-[16px]">
         WORKS WITH CLAUDE CODE, CODEX, COPILOT, CURSOR AND MANY OTHERS
       </p>
     </section>
