@@ -7,6 +7,7 @@ import ProblemSection from "./component/ProblemSection";
 import RiskBanner from "./component/RiskBanner";
 import OtherControlsSection from "./component/OtherControlsSection";
 import UnauthorizedToolCalls from "./component/UnauthorizedToolCalls";
+import ObserveEnforceAudit from "./component/ObserveEnforceAudit";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <RiskBanner />
         <OtherControlsSection />
         <UnauthorizedToolCalls />
+        <ObserveEnforceAudit />
 
     </main>
   );
