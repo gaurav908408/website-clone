@@ -11,6 +11,7 @@ import ObserveEnforceAudit from "./component/ObserveEnforceAudit";
 import PolicySection from "./component/PolicySection";
 import PositionSection from "./component/PositionSection";
 import ProofSection from "./component/ProofSection";
+import FAQSection from "./component/FAQSection";
 
 
 
@@ -41,6 +42,7 @@ export default function Home() {
       <PolicySection />
       <PositionSection />
       <ProofSection />
+      <FAQSection />
 
     </main>
   );
