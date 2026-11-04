@@ -12,6 +12,7 @@ import PolicySection from "./component/PolicySection";
 import PositionSection from "./component/PositionSection";
 import ProofSection from "./component/ProofSection";
 import FAQSection from "./component/FAQSection";
+import ClosingCTA from "./component/ClosingCTA";
 
 
 
@@ -43,6 +44,7 @@ export default function Home() {
       <PositionSection />
       <ProofSection />
       <FAQSection />
+      <ClosingCTA />
 
     </main>
   );

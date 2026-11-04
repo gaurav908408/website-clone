@@ -40,3 +40,23 @@ body {
 .animate-marquee-reverse {
   animation: marquee-reverse 30s linear infinite;
 }
+
+@keyframes network-pulse {
+  0%, 100% { opacity: 0.24; transform: scale(1); }
+  50% { opacity: 0.52; transform: scale(1.008); }
+}
+
+.closing-network {
+  transform-origin: center;
+  animation: network-pulse 7s ease-in-out infinite;
+}
+
+@keyframes network-drift {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(18px, -8px, 0); }
+}
+
+.closing-network-dots {
+  transform-origin: center;
+  animation: network-drift 9s ease-in-out infinite;
+}
