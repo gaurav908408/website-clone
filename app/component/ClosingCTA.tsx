@@ -1,6 +1,6 @@
 "use client";
 
-import { CalendarDays, Code2, Copy, Sparkle } from "lucide-react";
+import { CalendarDays, Code2, Copy, Sparkles } from "lucide-react";
 import { useState } from "react";
 
 export default function ClosingCTA() {
@@ -66,7 +66,7 @@ export default function ClosingCTA() {
 
           <div className="group relative">
             <a href="#prompt" className="flex h-[52px] items-center gap-3 rounded-full bg-white px-7 text-[14px] font-semibold text-black transition-colors hover:bg-[#e7e7ec]">
-              <Sparkle size={20} fill="black" strokeWidth={1.2} />
+              <Sparkles size={20} fill="black" strokeWidth={1.2} />
               Start with a prompt
             </a>
 

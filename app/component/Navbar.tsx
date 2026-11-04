@@ -1,6 +1,6 @@
 import NavbarLinks from "./NavbarLinks";
 import {
-  Sparkle,
+  Sparkles,
   BookOpen,
   Rss,
   CircleUserRound,
@@ -48,7 +48,7 @@ export default function Navbar() {
             <div className="flex items-center">
               <div className="h-px w-8 bg-white/80" />
 
-              <Sparkle
+              <Sparkles
                 size={28}
                 strokeWidth={1}
                 fill="white"

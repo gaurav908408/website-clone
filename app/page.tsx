@@ -13,6 +13,7 @@ import PositionSection from "./component/PositionSection";
 import ProofSection from "./component/ProofSection";
 import FAQSection from "./component/FAQSection";
 import ClosingCTA from "./component/ClosingCTA";
+import Footer from "./component/Footer";
 
 
 
@@ -45,6 +46,7 @@ export default function Home() {
       <ProofSection />
       <FAQSection />
       <ClosingCTA />
+      <Footer />
 
     </main>
   );
